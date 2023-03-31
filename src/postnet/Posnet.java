@@ -15,7 +15,9 @@ public class Posnet {
     
     /**
      * Este metodo verifica que la cuenta ha sido introducida correctamente 
-     * y que ademas tenga saldo suficiente para efectuar el pago completo
+     * y que ademas tenga saldo suficiente para efectuar el pago completo,
+     * entonces generara un ticket con el nombre y apellido del titular de la tarjeta,
+     * el monto final y el monto por cuota
      * 
      * @param tarjeta
      * @param montoAbonar
@@ -50,7 +52,7 @@ public class Posnet {
           
     }
 
-    //---------------------------
+    //------------GETTER---------------
 
     public static double getRECARGO_POR_CUOTA() {
         return RECARGO_POR_CUOTA;
@@ -64,7 +66,7 @@ public class Posnet {
         return MAX_CANT_CUOTAS;
     }
     
-    //----------------------------    
+    //-------------SETTER---------------    
     
     public static void setMIN_CANT_CUOTAS(int MIN_CANT_CUOTAS) {
         Posnet.MIN_CANT_CUOTAS = MIN_CANT_CUOTAS;

@@ -14,7 +14,7 @@ class Persona {
     private String mail;
     
  /**
-  * constructor persona...
+  * constructor persona 
   * @param dni
   * @param nombre
   * @param apellido

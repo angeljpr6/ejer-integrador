@@ -1,7 +1,7 @@
 
 package postnet;
 /**
- * Implementacion de un datáfono sencillo con pago a plazos.
+ * Implementacion de un datáfono con pago a plazos.
  * Ejemplo integrador clase Principal
  * @author 1dam
  */
@@ -11,7 +11,6 @@ public class Principal {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
         
         Posnet posnet=new Posnet();
         Persona titular=new Persona("45340173C","Paco","Paquirri","928756478","pepitoPaquirri@gmail.com");

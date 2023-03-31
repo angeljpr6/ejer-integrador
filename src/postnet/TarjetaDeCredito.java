@@ -37,8 +37,7 @@ class TarjetaDeCredito {
     public String toString() {
              return "TarjetaDeCredito{" + "entidadBancaria=" + entidadBancaria + ", nroTarjeta=" + nroTarjeta + ", saldo=" + saldo + ", entidadFinanciera=" + entidadFinanciera + ", titular=" + titular + '}';
     }
-
-
+    
     //------------------
     public String getEntidadBancaria() {
         return entidadBancaria;
